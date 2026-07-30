@@ -1,0 +1,2 @@
+-- ERD Schema documentation export script
+-- Matches database/init/02_create_tables.sql

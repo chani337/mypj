@@ -1,0 +1,9 @@
+-- Database Creation Script for Smart Farm System
+
+CREATE DATABASE IF NOT EXISTS `smart_farm` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+USE `smart_farm`;
+
+-- Grant permissions if necessary
+GRANT ALL PRIVILEGES ON `smart_farm`.* TO 'smartfarm'@'%';
+FLUSH PRIVILEGES;

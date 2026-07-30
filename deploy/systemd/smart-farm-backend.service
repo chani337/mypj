@@ -1,0 +1,11 @@
+[Unit]
+Description=Smart Farm Spring Boot Backend Service
+After=network.target mysql.service
+
+[Service]
+User=smartfarm
+ExecStart=/usr/bin/java -jar /opt/smartfarm/backend/app.jar
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,52 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment Variables
+.env
+.env.local
+.env.production
+!.env.example
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node.js / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.npm/
+
+# Java / Spring Boot / Gradle
+.gradle/
+backend/.gradle/
+backend/build/
+backend/bin/
+backend/out/
+*.class
+*.jar
+
+# Python / AI / Virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+ai/__pycache__/
+ai/app/__pycache__/
+.pytest_cache/
+ai/.pytest_cache/
+venv/
+.venv/
+ai/venv/
+
+# Nginx SSL Keys
+nginx/ssl/*
+!nginx/ssl/.gitkeep
+
+# Docker volumes & logs
+*.log
+logs/

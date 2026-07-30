@@ -1,0 +1,7 @@
+# Local Development Dockerfile for Spring Boot
+FROM gradle:8.5-jdk17
+WORKDIR /app
+COPY build.gradle settings.gradle ./
+COPY src ./src
+EXPOSE 8080
+CMD ["gradle", "bootRun"]

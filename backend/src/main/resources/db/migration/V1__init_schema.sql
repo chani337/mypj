@@ -1,0 +1,2 @@
+-- Flyway Migration Initial Schema
+-- Matches Database Initialization script
